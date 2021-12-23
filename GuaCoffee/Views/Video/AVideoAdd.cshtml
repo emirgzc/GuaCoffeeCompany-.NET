@@ -1,0 +1,20 @@
+﻿
+@model EntityLayer.Concrete.Video
+
+@{
+	ViewBag.Title = "AVideoAdd";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@using (Html.BeginForm("AVideoAdd", "Video", FormMethod.Post))
+{
+	<span class="text-danger"></span>
+	<div class="form-group">
+		@Html.Label("Vİdeo URL")
+		@Html.TextBoxFor(x => x.VideoURL, new { @class = "form-control", @required = "@required" })
+		@Html.ValidationMessageFor(x => x.VideoURL, "", new { @class = "text-danger" })
+		<br />
+		<button class="btn btn-primary">Ekle</button>
+	</div>
+}
+

@@ -1,0 +1,47 @@
+﻿
+@model IEnumerable<EntityLayer.Concrete.Franchise>
+
+@{
+	ViewBag.Title = "AFranchiseList";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row" id="table-head">
+	<div class="col-12">
+		<div class="card">
+			<div class="card-header">
+				<h4 class="card-title">Franchise Başvuruları</h4>
+			</div>
+			<div class="card-content">
+				<div class="table-responsive">
+					<table class="table mb-0">
+						<thead class="thead-dark">
+							<tr>
+								<th>İsim Soyisim</th>
+								<th>Şirket İsmi</th>
+								<th>Telefon</th>
+								<th>Tarih</th>
+								<th>Sil</th>
+								<th>Detay</th>
+							</tr>
+						</thead>
+						<tbody>
+							@foreach (var item in Model)
+							{
+								<tr>
+									<td>@item.Name</td>
+									<td>@item.CompanyName</td>
+									<td>@item.Phone</td>
+									<td>@item.DateFran.ToString("d MMMMM yyy")</td>
+									<td><a href="/Franchise/AFranchiseDelete/@item.FranID" class="text-danger">Sil</a></td>
+									<td><a href="/Franchise/AFranchiseDetails/@item.FranID">Detay</a></td>
+								</tr>
+							}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

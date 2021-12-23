@@ -1,0 +1,25 @@
+﻿
+@model EntityLayer.Concrete.Menu
+
+@{
+	ViewBag.Title = "AMenuAdd";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@using (Html.BeginForm("AMenuAdd", "Menu", FormMethod.Post))
+{
+	<span class="text-danger"></span>
+	<div class="form-group">
+		@Html.Label("Başlık")
+		@Html.TextBoxFor(x => x.Title, new { @class = "form-control", @required = "@required" })
+		@Html.ValidationMessageFor(x => x.Title, "", new { @class = "text-danger" })
+		<br />
+		<div class="form-group">
+			<label>İçerik</label>
+			@Html.TextBoxFor(x => x.Description, new { @class = "form-control", @required = "@required" })
+			@Html.ValidationMessageFor(x => x.Description, "", new { @class = "text-danger" })
+		</div>
+		<button class="btn btn-primary">Ekle</button>
+	</div>
+}
+

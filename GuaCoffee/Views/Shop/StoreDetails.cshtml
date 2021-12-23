@@ -1,0 +1,60 @@
+﻿
+@model IEnumerable<EntityLayer.Concrete.Store>
+
+@{
+	ViewBag.Title = "StoreDetails";
+	Layout = "~/Views/Shared/_AnaLayout.cshtml";
+}
+
+<section class="single-product">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<ol class="breadcrumb">
+					<li><a href="/Slider/Index/">Anasayfa</a></li>
+					<li><a href="/Shop/Index/">Ürünlerimiz</a></li>
+				</ol>
+			</div>
+		</div>
+		<div class="row mt-20">
+			<div class="col-md-5">
+				<div class="single-product-slider">
+					<div id='carousel-custom' class='carousel slide' data-ride='carousel'>
+
+						@foreach (var item in Model)
+						{
+							<div class='carousel-outer'>
+								<!-- me art lab slider -->
+								<div class='carousel-inner '>
+									<div class='item active'>
+										<img src='@item.Image' alt='Gua Coffee Company' style="width:100%; height:400px; object-fit:cover"/>
+									</div>
+								</div>
+							</div>
+						}
+
+					</div>
+				</div>
+			</div>
+			<div class="col-md-7">
+				<div class="single-product-details">
+					@foreach (var item in Model)
+					{
+						<h2>@item.Title</h2>
+						<p class="product-price">Ücret : @item.Money TL</p>
+
+						<p class="product-description mt-20">@Html.Raw(item.Description)</p>	
+						<div class="product-size">
+							<span>Renk:</span>
+							<select class="form-control" disabled>
+								<option>@item.Color</option>
+							</select>
+						</div>
+					}
+				</div>
+			</div>
+		</div>		
+	</div>
+</section>
+
+

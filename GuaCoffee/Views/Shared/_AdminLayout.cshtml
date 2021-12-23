@@ -1,0 +1,165 @@
+﻿
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gua Coffee Copmany © | Admin Paneli Giriş</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="~/mazer/dist/assets/css/bootstrap.css">
+
+	<link rel="stylesheet" href="~/mazer/dist/assets/vendors/iconly/bold.css">
+
+	<link rel="stylesheet" href="~/mazer/dist/assets/vendors/perfect-scrollbar/perfect-scrollbar.css">
+	<link rel="stylesheet" href="~/mazer/dist/assets/vendors/bootstrap-icons/bootstrap-icons.css">
+	<link rel="stylesheet" href="~/mazer/dist/assets/css/app.css">
+	<link rel="shortcut icon" href="~/mazer/dist/assets/images/favicon.svg" type="image/x-icon">
+	<link rel="shortcut icon" type="image/x-icon" href="~/mazer/dist/assets/images/favi.png" />
+</head>
+
+<body>
+	<div id="app">
+		<div id="sidebar" class="active">
+			<div class="sidebar-wrapper active">
+				<div class="sidebar-header">
+					<div class="d-flex justify-content-between">
+						<div class="logo">
+							<img class="logo-default" src="~/mazer/dist/assets/images/arkali1.png" alt="logo" style="width:130px; height:80px;" />
+						</div>
+						<div class="toggler">
+							<a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="sidebar-menu">
+					<ul class="menu">
+						<li class="sidebar-title">Menü</li>
+
+						<li class="sidebar-item">
+							<a href="/About/AAboutList/" class='sidebar-link'>
+								<i class="bi bi-card-checklist"></i>
+								<span>Hakkımızda</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="/Menu/AMenuList/" class='sidebar-link'>
+								<i class="bi bi-card-heading"></i>
+								<span>Menü</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="/Franchise/AFranchiseList/" class='sidebar-link'>
+								<i class="bi bi-battery-half"></i>
+								<span>Franchise</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="/Kariyer/AKariyerList/" class='sidebar-link'>
+								<i class="bi bi-bar-chart-line-fill"></i>
+								<span>Kariyer</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="/Activity/AActivityList/" class='sidebar-link'>
+								<i class="bi bi-arrow-bar-left"></i>
+								<span>Etkinlikler</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="/Blog/ABlogList/" class='sidebar-link'>
+								<i class="bi bi-blockquote-right"></i>
+								<span>Bloglar</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="/Slider/ASliderList/" class='sidebar-link'>
+								<i class="bi bi-badge-cc"></i>
+								<span>Slider</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="/Galery/AGaleryList/" class='sidebar-link'>
+								<i class="bi bi-soundwave"></i>
+								<span>Galeri</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="/Video/AVideoList/" class='sidebar-link'>
+								<i class="bi bi-reception-3"></i>
+								<span>Video</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="/Shop/AStoreList/" class='sidebar-link'>
+								<i class="bi bi-file-person"></i>
+								<span>Ürünlerimiz</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="/Sube/ASubeList/" class='sidebar-link'>
+								<i class="bi bi-file-diff"></i>
+								<span>Şubelerimiz</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="/Contact/AContactList/" class='sidebar-link'>
+								<i class="bi bi-envelope"></i>
+								<span>İletişim</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="/Admin/Index/" class='sidebar-link'>
+								<i class="bi bi-lock"></i>
+								<span>Adminler</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="/Setting/ASetList/" class='sidebar-link'>
+								<i class="bi bi-compass"></i>
+								<span>Site Ayarları</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="/Admin/AAdminProfile/" class='sidebar-link'>
+								<i class="bi bi-printer"></i>
+								<span>Profil</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="/AdminLogin/LogOutAd/" class='sidebar-link'>
+								<i class="bi bi-door-closed"></i>
+								<span>Çıkış Yap</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
+			</div>
+		</div>
+		<div id="main">
+			<header class="mb-3">
+				<a href="#" class="burger-btn d-block d-xl-none">
+					<i class="bi bi-justify fs-3"></i>
+				</a>
+			</header>
+			@RenderBody()
+		</div>
+	</div>
+	<script src="~/mazer/dist/assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	<script src="~/mazer/dist/assets/js/bootstrap.bundle.min.js"></script>
+
+	<script src="~/mazer/dist/assets/vendors/apexcharts/apexcharts.js"></script>
+	<script src="~/mazer/dist/assets/js/pages/dashboard.js"></script>
+	<script src="~/mazer/dist/assets/js/main.js"></script>
+
+	@RenderSection("Scripts", false)
+
+</body>
+</html>

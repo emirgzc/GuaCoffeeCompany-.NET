@@ -1,0 +1,25 @@
+﻿
+@model EntityLayer.Concrete.Sube
+
+@{
+	ViewBag.Title = "ASubeAdd";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@using (Html.BeginForm("ASubeAdd", "Sube", FormMethod.Post))
+{
+	<span class="text-danger"></span>
+	<div class="form-group">
+		@Html.Label("Başlık")
+		@Html.TextBoxFor(x => x.Title, new { @class = "form-control", @required = "@required" })
+		@Html.ValidationMessageFor(x => x.Title, "", new { @class = "text-danger" })
+		<br />
+		<div class="form-group">
+			<label>Harita</label>
+			@Html.TextBoxFor(x => x.Map, new { @class = "form-control", @required = "@required" })
+			@Html.ValidationMessageFor(x => x.Map, "", new { @class = "text-danger" })
+		</div>
+		<button class="btn btn-primary">Ekle</button>
+	</div>
+}
+

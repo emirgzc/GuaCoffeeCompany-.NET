@@ -1,0 +1,23 @@
+﻿
+@model IEnumerable<EntityLayer.Concrete.Setting>
+
+<ul class="social-media">
+	@foreach (var item in Model)
+	{
+		<li>
+			<a href="@item.Facebook">
+				<i class="tf-ion-social-facebook"></i>
+			</a>
+		</li>
+		<li>
+			<a href="@item.Instagram">
+				<i class="tf-ion-social-instagram"></i>
+			</a>
+		</li>
+		<li>
+			<a href="@item.Youtube">
+				<i class="tf-ion-social-youtube"></i>
+			</a>
+		</li>
+	}
+</ul>

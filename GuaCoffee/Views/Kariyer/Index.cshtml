@@ -1,0 +1,77 @@
+﻿
+@{
+	ViewBag.Title = "Index";
+	Layout = "~/Views/Shared/_AnaLayout.cshtml";
+}
+
+<section class="page-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="content">
+					<h1 class="page-name">KARİYER</h1>
+					<ol class="breadcrumb">
+						<li><a href="/Slider/Index/">Anasayfa</a></li>
+						<li class="active">Kariyer</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="page-wrapper">
+	<div class="checkout shopping">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="block billing-details">
+						<h4 class="widget-title">Kariyer Başvuru Formu</h4>
+						@using (Html.BeginForm("Index", "Kariyer", FormMethod.Post))
+						{
+							<div class="checkout-country-code clearfix">
+								<div class="form-group">
+									<label for="full_name">İsim Soyisim*</label>
+									<input type="text" class="form-control" name="NameSurname" id="full_name" placeholder="" minlength="2" required="" maxlength="100">
+								</div>
+								<div class="form-group">
+									<label for="full_name">Telefon*</label>
+									<input type="text" class="form-control" name="Phone" id="full_name" placeholder="" minlength="2" required="" maxlength="20">
+								</div>
+							</div>
+							<div class="checkout-country-code clearfix">
+								<div class="form-group">
+									<label>Birim*</label>
+									<select class="form-control" name="Birim">
+										<option value="Merkez">Merkez</option>
+										<option value="Barista">Barista</option>
+										<option value="Mutfak">Mutfak</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label for="user_city">Son Çalıştığınız Yer*</label>
+									<input type="text" class="form-control" id="user_city" name="LastWorkingName" value="" minlength="2" required="" maxlength="100">
+								</div>
+							</div>
+							<div class="checkout-country-code clearfix">
+								<div class="form-group">
+									<label for="user_post_code">Email*</label>
+									<input type="text" class="form-control" id="user_post_code" name="Email" value="" minlength="2" required="" maxlength="30">
+								</div>
+								<div class="form-group">
+									<label for="user_city">Subject*</label>
+									<input type="text" class="form-control" id="user_city" name="Subject" value="" minlength="2" required="" maxlength="100">
+								</div>
+							</div>
+							<div id="cf-submit">
+								<input type="submit" id="contact-submit"
+									   class="btn btn-main" value="Gönder">
+							</div>
+						}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

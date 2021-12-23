@@ -1,0 +1,47 @@
+﻿
+@model IEnumerable<EntityLayer.Concrete.About>
+
+@{
+	ViewBag.Title = "AAboutList";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<section class="section">
+	<div class="row" id="basic-table">
+		<div class="col-12 col-md-12">
+			<div class="card">
+				<div class="card-header">
+					<h4 class="card-title">Hakkımızda Ayarları</h4>
+				</div>
+				<div class="card-content">
+					<div class="card-body">
+						<div class="table-responsive">
+							<table class="table table-lg">
+								<thead>
+									<tr>
+										<th>#</th>
+										<th>Başlık</th>
+										<th>Gua Hakkında</th>
+										<th>Güncelle</th>
+									</tr>
+								</thead>
+								<tbody>
+									@foreach (var item in Model)
+									{
+										<tr>
+											<td>@item.AboutID</td>
+											<td>@item.Title</td>
+											<td>Gua Hakkında</td>
+											<td><a href="/About/AAboutUpdate/@item.AboutID" class="btn btn-info">Güncelle</a></td>
+										</tr>
+									}
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+

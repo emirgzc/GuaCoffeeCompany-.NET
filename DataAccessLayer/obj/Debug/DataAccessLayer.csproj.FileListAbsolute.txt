@@ -1,0 +1,46 @@
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migstart.resources
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migupdateabout.resources
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migupdateactivity.resources
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migupdatestore.resources
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migupdatecontact.resources
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migupdatesetmap.resources
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migupdatesube.resources
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migupdatemenu.resources
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migupdateactdate.resources
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migaddadmintble.resources
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migupdatekarcvfile.resources
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migupdatemenustatusmevcut.resources
+C:\Users\muham\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migaddvideotable.resources
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migstart.resources
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache

@@ -1,0 +1,40 @@
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\bin\Debug\FluentValidation.dll
+C:\Users\muham\source\repos\GuaCoffee\BusinessLayer\bin\Debug\FluentValidation.xml
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\bin\Debug\FluentValidation.dll
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\bin\Debug\FluentValidation.xml
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Emir Gözcü\source\repos\GuaCoffee\BusinessLayer\obj\Debug\BusinessLayer.pdb

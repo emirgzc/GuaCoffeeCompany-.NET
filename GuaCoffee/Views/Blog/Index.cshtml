@@ -1,0 +1,63 @@
+﻿
+@model IEnumerable<EntityLayer.Concrete.Blog>
+@using GuaCoffee.App_Code
+
+@{
+	ViewBag.Title = "Index";
+	Layout = "~/Views/Shared/_AnaLayout.cshtml";
+}
+
+<section class="page-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="content">
+					<h1 class="page-name">GUA BLOG</h1>
+					<ol class="breadcrumb">
+						<li><a href="/Slider/Index/">Anasayfa</a></li>
+						<li class="active">Gua Blog</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<div class="page-wrapper">
+	<div class="container">
+		<div class="row">
+			@foreach (var item in Model)
+			{
+				<div class="col-md-4">
+					<div class="post">
+						<div class="post-thumb">
+							<a href="/Blog/BlogDetails/@item.BlogID/@Seo.AdresDuzenle(item.Title)">
+								<img class="img-responsive" src="@item.Image" alt="Gua Coffee Company" style="width:100%;height:220px;object-fit:cover;">
+							</a>
+						</div>
+						<h2 class="post-title"><a href="/Blog/BlogDetails/@item.BlogID/@Seo.AdresDuzenle(item.Title)">@item.Title</a></h2>
+						<div class="post-meta">
+							<ul>
+								<li>
+									<i class="tf-ion-ios-calendar"></i> @item.BlogDate.ToString("dd MMMM yy")
+								</li>
+								<li>
+									<i class="tf-ion-android-person"></i> @item.ByAdmin
+								</li>
+							</ul>
+						</div>
+						<div class="post-content">
+							<p>
+								@Html.Raw(item.Description.Substring(0, 200))...
+							</p>
+							<a href="/Blog/BlogDetails/@item.BlogID/@Seo.AdresDuzenle(item.Title)" class="btn btn-main">Devamını Oku...</a>
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+</div>
+

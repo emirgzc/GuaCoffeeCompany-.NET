@@ -1,0 +1,53 @@
+﻿
+@model IEnumerable<EntityLayer.Concrete.Store>
+
+@{
+	ViewBag.Title = "AStoreList";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<a href="/Shop/ANewStore/" class="btn btn-primary mb-3">Yeni Ekle</a>
+
+<div class="row">
+	@foreach (var item in Model)
+	{
+		<div class="col-lg-3 col-sm-6">
+			<div class="card">
+				<div class="card-body">
+					<div class="text-center">
+						<img src="@item.Image" alt="" class="img-fluid mb-2" style="width: 100%; height: 230px; object-fit: cover;">
+						<h5 class="mt-3 mb-1">@item.Title</h5>
+						<p class="m-0 p-1"><b>Renk </b> : @item.Color</p>
+						<p class="m-0 p-1"><b>Ücreti</b> : @item.Money TL</p>
+
+						@if (item.Status == true)
+						{
+							<p class="m-0 p-1 text-success">Yayında</p>
+						}
+						else
+						{
+							<p class="m-0 p-1 text-danger">Yayında Değil</p>
+						}
+						<br />
+					</div>
+					<div class="text-center mb-2">
+						<a href="/Shop/ADeleteStore/@item.StoreID" class="btn btn-success">Sil</a>
+						<a href="/Shop/AStoreUpdate/@item.StoreID" class="btn btn-outline-warning">Güncelle</a>
+						<br />
+						@if (item.Status == true)
+						{
+							<a href="/Shop/AStoreDoFalse/@item.StoreID" class="btn btn-danger mt-2">Pasif</a>
+						}
+						else
+						{
+							<a href="/Shop/AStoreDoTrue/@item.StoreID" class="btn btn-success mt-2">Aktif</a>
+						}
+
+					</div>
+				</div>
+			</div>
+		</div>
+	}
+</div>
+
+

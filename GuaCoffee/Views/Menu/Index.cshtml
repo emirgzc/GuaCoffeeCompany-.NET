@@ -1,0 +1,58 @@
+﻿
+@model IEnumerable<EntityLayer.Concrete.Menu>
+
+@{
+	ViewBag.Title = "Index";
+	Layout = "~/Views/Shared/_AnaLayout.cshtml";
+}
+
+<section class="page-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="content">
+					<h1 class="page-name">GUA MENÜ</h1>
+					<ol class="breadcrumb">
+						<li><a href="/Slider/Index/">Anasayfa</a></li>
+						<li class="active">Gua Menü</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="page-wrapper">
+	<div class="cart shopping">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="block">
+						<div class="product-list">
+							<form method="post">
+								<table class="table">
+									<thead>
+										<tr>
+											<th><h2>ÜRÜN ADI</h2></th>
+											<th class="float-lg-start"><h2>KATEGORİ</h2></th>
+										</tr>
+									</thead>
+									<tbody>
+										@foreach (var item in Model)
+										{
+											<tr class="">
+												<td><h4>@item.Title</h4></td>
+												<td><h4>@item.Description</h4></td>
+											</tr>
+										}
+									</tbody>
+								</table>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
